@@ -1,0 +1,73 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local Python tooling
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+pip-wheel-metadata/
+*.egg-info/
+build/
+dist/
+
+# Jupyter Notebook artifacts
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ML experiment outputs and generated artifacts
+outputs/
+**/outputs/
+mlruns/
+wandb/
+runs/
+checkpoints/
+artifacts/
+
+# Trained model binaries
+models/
+**/models/
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.keras
+*.onnx
+*.pt
+*.pth
+
+# Large local datasets and exports
+data/raw/
+data/processed/
+**/data/raw/
+**/data/processed/
+*.parquet
+*.feather
+*.sqlite
+*.db
